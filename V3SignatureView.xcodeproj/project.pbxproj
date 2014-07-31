@@ -1,0 +1,454 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A904B5AA198A35C300EA332D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A904B5A9198A35C300EA332D /* Foundation.framework */; };
+		A904B5AC198A35C300EA332D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A904B5AB198A35C300EA332D /* CoreGraphics.framework */; };
+		A904B5AE198A35C300EA332D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A904B5AD198A35C300EA332D /* UIKit.framework */; };
+		A904B5B4198A35C300EA332D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A904B5B2198A35C300EA332D /* InfoPlist.strings */; };
+		A904B5B6198A35C300EA332D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A904B5B5198A35C300EA332D /* main.m */; };
+		A904B5BA198A35C300EA332D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A904B5B9198A35C300EA332D /* AppDelegate.m */; };
+		A904B5BC198A35C300EA332D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A904B5BB198A35C300EA332D /* Images.xcassets */; };
+		A904B5C3198A35C300EA332D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A904B5C2198A35C300EA332D /* XCTest.framework */; };
+		A904B5C4198A35C300EA332D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A904B5A9198A35C300EA332D /* Foundation.framework */; };
+		A904B5C5198A35C300EA332D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A904B5AD198A35C300EA332D /* UIKit.framework */; };
+		A904B5CD198A35C300EA332D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A904B5CB198A35C300EA332D /* InfoPlist.strings */; };
+		A904B5CF198A35C300EA332D /* V3SignatureViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A904B5CE198A35C300EA332D /* V3SignatureViewTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A904B5C6198A35C300EA332D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A904B59E198A35C300EA332D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A904B5A5198A35C300EA332D;
+			remoteInfo = V3SignatureView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A904B5A6198A35C300EA332D /* V3SignatureView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = V3SignatureView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A904B5A9198A35C300EA332D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A904B5AB198A35C300EA332D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A904B5AD198A35C300EA332D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A904B5B1198A35C300EA332D /* V3SignatureView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "V3SignatureView-Info.plist"; sourceTree = "<group>"; };
+		A904B5B3198A35C300EA332D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A904B5B5198A35C300EA332D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A904B5B7198A35C300EA332D /* V3SignatureView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "V3SignatureView-Prefix.pch"; sourceTree = "<group>"; };
+		A904B5B8198A35C300EA332D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A904B5B9198A35C300EA332D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A904B5BB198A35C300EA332D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A904B5C1198A35C300EA332D /* V3SignatureViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = V3SignatureViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A904B5C2198A35C300EA332D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		A904B5CA198A35C300EA332D /* V3SignatureViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "V3SignatureViewTests-Info.plist"; sourceTree = "<group>"; };
+		A904B5CC198A35C300EA332D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A904B5CE198A35C300EA332D /* V3SignatureViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = V3SignatureViewTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A904B5A3198A35C300EA332D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A904B5AC198A35C300EA332D /* CoreGraphics.framework in Frameworks */,
+				A904B5AE198A35C300EA332D /* UIKit.framework in Frameworks */,
+				A904B5AA198A35C300EA332D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A904B5BE198A35C300EA332D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A904B5C3198A35C300EA332D /* XCTest.framework in Frameworks */,
+				A904B5C5198A35C300EA332D /* UIKit.framework in Frameworks */,
+				A904B5C4198A35C300EA332D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A904B59D198A35C300EA332D = {
+			isa = PBXGroup;
+			children = (
+				A904B5AF198A35C300EA332D /* V3SignatureView */,
+				A904B5C8198A35C300EA332D /* V3SignatureViewTests */,
+				A904B5A8198A35C300EA332D /* Frameworks */,
+				A904B5A7198A35C300EA332D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A904B5A7198A35C300EA332D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A904B5A6198A35C300EA332D /* V3SignatureView.app */,
+				A904B5C1198A35C300EA332D /* V3SignatureViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A904B5A8198A35C300EA332D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A904B5A9198A35C300EA332D /* Foundation.framework */,
+				A904B5AB198A35C300EA332D /* CoreGraphics.framework */,
+				A904B5AD198A35C300EA332D /* UIKit.framework */,
+				A904B5C2198A35C300EA332D /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A904B5AF198A35C300EA332D /* V3SignatureView */ = {
+			isa = PBXGroup;
+			children = (
+				A904B5B8198A35C300EA332D /* AppDelegate.h */,
+				A904B5B9198A35C300EA332D /* AppDelegate.m */,
+				A904B5BB198A35C300EA332D /* Images.xcassets */,
+				A904B5B0198A35C300EA332D /* Supporting Files */,
+			);
+			path = V3SignatureView;
+			sourceTree = "<group>";
+		};
+		A904B5B0198A35C300EA332D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A904B5B1198A35C300EA332D /* V3SignatureView-Info.plist */,
+				A904B5B2198A35C300EA332D /* InfoPlist.strings */,
+				A904B5B5198A35C300EA332D /* main.m */,
+				A904B5B7198A35C300EA332D /* V3SignatureView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A904B5C8198A35C300EA332D /* V3SignatureViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				A904B5CE198A35C300EA332D /* V3SignatureViewTests.m */,
+				A904B5C9198A35C300EA332D /* Supporting Files */,
+			);
+			path = V3SignatureViewTests;
+			sourceTree = "<group>";
+		};
+		A904B5C9198A35C300EA332D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A904B5CA198A35C300EA332D /* V3SignatureViewTests-Info.plist */,
+				A904B5CB198A35C300EA332D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A904B5A5198A35C300EA332D /* V3SignatureView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A904B5D2198A35C300EA332D /* Build configuration list for PBXNativeTarget "V3SignatureView" */;
+			buildPhases = (
+				A904B5A2198A35C300EA332D /* Sources */,
+				A904B5A3198A35C300EA332D /* Frameworks */,
+				A904B5A4198A35C300EA332D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = V3SignatureView;
+			productName = V3SignatureView;
+			productReference = A904B5A6198A35C300EA332D /* V3SignatureView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A904B5C0198A35C300EA332D /* V3SignatureViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A904B5D5198A35C300EA332D /* Build configuration list for PBXNativeTarget "V3SignatureViewTests" */;
+			buildPhases = (
+				A904B5BD198A35C300EA332D /* Sources */,
+				A904B5BE198A35C300EA332D /* Frameworks */,
+				A904B5BF198A35C300EA332D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A904B5C7198A35C300EA332D /* PBXTargetDependency */,
+			);
+			name = V3SignatureViewTests;
+			productName = V3SignatureViewTests;
+			productReference = A904B5C1198A35C300EA332D /* V3SignatureViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A904B59E198A35C300EA332D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = com.v3Signature;
+				TargetAttributes = {
+					A904B5C0198A35C300EA332D = {
+						TestTargetID = A904B5A5198A35C300EA332D;
+					};
+				};
+			};
+			buildConfigurationList = A904B5A1198A35C300EA332D /* Build configuration list for PBXProject "V3SignatureView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A904B59D198A35C300EA332D;
+			productRefGroup = A904B5A7198A35C300EA332D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A904B5A5198A35C300EA332D /* V3SignatureView */,
+				A904B5C0198A35C300EA332D /* V3SignatureViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A904B5A4198A35C300EA332D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A904B5B4198A35C300EA332D /* InfoPlist.strings in Resources */,
+				A904B5BC198A35C300EA332D /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A904B5BF198A35C300EA332D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A904B5CD198A35C300EA332D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A904B5A2198A35C300EA332D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A904B5BA198A35C300EA332D /* AppDelegate.m in Sources */,
+				A904B5B6198A35C300EA332D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A904B5BD198A35C300EA332D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A904B5CF198A35C300EA332D /* V3SignatureViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A904B5C7198A35C300EA332D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A904B5A5198A35C300EA332D /* V3SignatureView */;
+			targetProxy = A904B5C6198A35C300EA332D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A904B5B2198A35C300EA332D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A904B5B3198A35C300EA332D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A904B5CB198A35C300EA332D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A904B5CC198A35C300EA332D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A904B5D0198A35C300EA332D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A904B5D1198A35C300EA332D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A904B5D3198A35C300EA332D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "V3SignatureView/V3SignatureView-Prefix.pch";
+				INFOPLIST_FILE = "V3SignatureView/V3SignatureView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A904B5D4198A35C300EA332D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "V3SignatureView/V3SignatureView-Prefix.pch";
+				INFOPLIST_FILE = "V3SignatureView/V3SignatureView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A904B5D6198A35C300EA332D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/V3SignatureView.app/V3SignatureView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "V3SignatureView/V3SignatureView-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "V3SignatureViewTests/V3SignatureViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		A904B5D7198A35C300EA332D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/V3SignatureView.app/V3SignatureView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "V3SignatureView/V3SignatureView-Prefix.pch";
+				INFOPLIST_FILE = "V3SignatureViewTests/V3SignatureViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A904B5A1198A35C300EA332D /* Build configuration list for PBXProject "V3SignatureView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A904B5D0198A35C300EA332D /* Debug */,
+				A904B5D1198A35C300EA332D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A904B5D2198A35C300EA332D /* Build configuration list for PBXNativeTarget "V3SignatureView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A904B5D3198A35C300EA332D /* Debug */,
+				A904B5D4198A35C300EA332D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A904B5D5198A35C300EA332D /* Build configuration list for PBXNativeTarget "V3SignatureViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A904B5D6198A35C300EA332D /* Debug */,
+				A904B5D7198A35C300EA332D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A904B59E198A35C300EA332D /* Project object */;
+}
