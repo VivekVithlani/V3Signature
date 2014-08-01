@@ -439,6 +439,7 @@
 				A904B5D4198A35C300EA332D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A904B5D5198A35C300EA332D /* Build configuration list for PBXNativeTarget "V3SignatureViewTests" */ = {
 			isa = XCConfigurationList;
@@ -447,6 +448,7 @@
 				A904B5D7198A35C300EA332D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
