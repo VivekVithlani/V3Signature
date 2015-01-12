@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0676927B1A5A9BA500B6927B /* V3SignatureView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0676927A1A5A9BA500B6927B /* V3SignatureView.m */; };
+		067692821A5A9BDF00B6927B /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0676927F1A5A9BDF00B6927B /* MainViewController.m */; };
+		067692831A5A9BDF00B6927B /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 067692801A5A9BDF00B6927B /* MainViewController.xib */; };
+		067692841A5A9BDF00B6927B /* MainViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 067692811A5A9BDF00B6927B /* MainViewController_iPad.xib */; };
+		067692891A5A9D2000B6927B /* eraser.png in Resources */ = {isa = PBXBuildFile; fileRef = 067692861A5A9D2000B6927B /* eraser.png */; };
+		0676928A1A5A9D2000B6927B /* gray@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 067692871A5A9D2000B6927B /* gray@2x.png */; };
 		A904B5AA198A35C300EA332D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A904B5A9198A35C300EA332D /* Foundation.framework */; };
 		A904B5AC198A35C300EA332D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A904B5AB198A35C300EA332D /* CoreGraphics.framework */; };
 		A904B5AE198A35C300EA332D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A904B5AD198A35C300EA332D /* UIKit.framework */; };
@@ -32,6 +38,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		067692791A5A9BA500B6927B /* V3SignatureView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = V3SignatureView.h; sourceTree = "<group>"; };
+		0676927A1A5A9BA500B6927B /* V3SignatureView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = V3SignatureView.m; sourceTree = "<group>"; };
+		0676927E1A5A9BDF00B6927B /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		0676927F1A5A9BDF00B6927B /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		067692801A5A9BDF00B6927B /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		067692811A5A9BDF00B6927B /* MainViewController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController_iPad.xib; sourceTree = "<group>"; };
+		067692861A5A9D2000B6927B /* eraser.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eraser.png; sourceTree = "<group>"; };
+		067692871A5A9D2000B6927B /* gray@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gray@2x.png"; sourceTree = "<group>"; };
 		A904B5A6198A35C300EA332D /* V3SignatureView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = V3SignatureView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A904B5A9198A35C300EA332D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A904B5AB198A35C300EA332D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -74,6 +88,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		067692781A5A9BA500B6927B /* V3Utility */ = {
+			isa = PBXGroup;
+			children = (
+				067692791A5A9BA500B6927B /* V3SignatureView.h */,
+				0676927A1A5A9BA500B6927B /* V3SignatureView.m */,
+			);
+			path = V3Utility;
+			sourceTree = "<group>";
+		};
+		0676927C1A5A9BDF00B6927B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0676927D1A5A9BDF00B6927B /* ViewController */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		0676927D1A5A9BDF00B6927B /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0676927E1A5A9BDF00B6927B /* MainViewController.h */,
+				0676927F1A5A9BDF00B6927B /* MainViewController.m */,
+				067692801A5A9BDF00B6927B /* MainViewController.xib */,
+				067692811A5A9BDF00B6927B /* MainViewController_iPad.xib */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		067692851A5A9D2000B6927B /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				067692861A5A9D2000B6927B /* eraser.png */,
+				067692871A5A9D2000B6927B /* gray@2x.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
 		A904B59D198A35C300EA332D = {
 			isa = PBXGroup;
 			children = (
@@ -109,6 +160,9 @@
 			children = (
 				A904B5B8198A35C300EA332D /* AppDelegate.h */,
 				A904B5B9198A35C300EA332D /* AppDelegate.m */,
+				067692781A5A9BA500B6927B /* V3Utility */,
+				0676927C1A5A9BDF00B6927B /* Classes */,
+				067692851A5A9D2000B6927B /* Images */,
 				A904B5BB198A35C300EA332D /* Images.xcassets */,
 				A904B5B0198A35C300EA332D /* Supporting Files */,
 			);
@@ -220,6 +274,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				A904B5B4198A35C300EA332D /* InfoPlist.strings in Resources */,
+				0676928A1A5A9D2000B6927B /* gray@2x.png in Resources */,
+				067692891A5A9D2000B6927B /* eraser.png in Resources */,
+				067692841A5A9BDF00B6927B /* MainViewController_iPad.xib in Resources */,
+				067692831A5A9BDF00B6927B /* MainViewController.xib in Resources */,
 				A904B5BC198A35C300EA332D /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -239,8 +297,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0676927B1A5A9BA500B6927B /* V3SignatureView.m in Sources */,
 				A904B5BA198A35C300EA332D /* AppDelegate.m in Sources */,
 				A904B5B6198A35C300EA332D /* main.m in Sources */,
+				067692821A5A9BDF00B6927B /* MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -362,6 +422,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "V3SignatureView/V3SignatureView-Prefix.pch";
 				INFOPLIST_FILE = "V3SignatureView/V3SignatureView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -375,6 +436,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "V3SignatureView/V3SignatureView-Prefix.pch";
 				INFOPLIST_FILE = "V3SignatureView/V3SignatureView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "MainViewController.h"
 
 @implementation AppDelegate
 
@@ -14,6 +15,17 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    MainViewController *mainView;
+    if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad) {
+        mainView = [[MainViewController alloc] initWithNibName:@"MainViewController_iPad" bundle:nil];
+    }
+    else
+    {
+        mainView = [[MainViewController alloc] initWithNibName:@"MainViewController" bundle:nil];
+    }
+    UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:mainView];
+
+    self.window.rootViewController = navigationController;
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
